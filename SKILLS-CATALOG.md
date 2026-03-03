@@ -4,7 +4,7 @@ This is the master index of all reusable prompt skills in the library.
 Each skill is a self-contained `.md` file in `/skills/` that you can copy-paste directly into any LLM chat (Grok, Claude, GPT, Gemini, etc.).
 
 Last updated: March 2026  
-Total skills: 2 (growing…)
+Total skills: 4 (growing…)
 
 ## How to Use This Catalog
 - **ID** → Unique number + short filename hint
@@ -23,6 +23,7 @@ Total skills: 2 (growing…)
 | 003 | Extract Entities              | core     | extraction, NER, structured-data  | Pull named entities, dates, numbers, products from text | 1.0 (planned) | skills/core/003_extract_entities.md    |
 | 004 | Code Review                   | core     | code, debugging, quality          | Analyze code for bugs, style, security, improvements    | —       | skills/core/004_code_review.md         |
 | 005 | Chain of Thought              | core     | reasoning, step-by-step           | Force detailed step-by-step reasoning on complex problems | —       | skills/core/005_chain_of_thought.md    |
+| 006 | [Online Shopping Assistant](./skills/core/006_shopping_assistant.md) | core | shopping, product-research, comparison, deals, consumer | Research, compare, and evaluate products for any purchase | 1.0     | skills/core/006_shopping_assistant.md  |
 
 ## Writing Skills
 
@@ -38,6 +39,13 @@ Total skills: 2 (growing…)
 |-----|-------------------------------|-----------|-----------------------------------|----------------------------------------------------------|---------|----------------------------------------|
 | 021 | Sentiment Analysis            | analysis  | sentiment, emotion, opinion       | Detect overall sentiment + key emotional drivers        | —       | skills/analysis/021_sentiment_analysis.md |
 | 022 | Pros / Cons Evaluation        | analysis  | decision-making, tradeoffs        | Balanced pros/cons list + weighted recommendation       | —       | skills/analysis/022_pros_cons_evaluation.md |
+
+## Research Skills
+
+| ID  | Name                          | Category  | Tags                              | Description                                              | Version | File Path                              |
+|-----|-------------------------------|-----------|-----------------------------------|----------------------------------------------------------|---------|----------------------------------------|
+| 041 | [Topic Research Brief](./skills/research/topic.md) | research | research, citations, references, literature, survey, academic, synthesis | Structured, citation-backed research brief on any topic | 1.0     | skills/research/topic.md               |
+| 042 | [Person Research Profile](./skills/research/person.md) | research  | research, biography, background, people, profile, public-figures, citations | Research and compile a comprehensive, source-backed profile on any prominent figure | 1.0     | skills/research/person.md              |
 
 ## Transformation Skills
 
