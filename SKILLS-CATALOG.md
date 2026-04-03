@@ -3,8 +3,8 @@
 This is the master index of all reusable prompt skills in the library.  
 Each skill is a self-contained `.md` file in `/skills/` that you can copy-paste directly into any LLM chat (Grok, Claude, GPT, Gemini, etc.).
 
-Last updated: March 2026  
-Total skills: 4 (growing…)
+Last updated: April 2026
+Total skills: 9 (growing…)
 
 ## How to Use This Catalog
 - **ID** → Unique number + short filename hint
@@ -44,8 +44,18 @@ Total skills: 4 (growing…)
 
 | ID  | Name                          | Category  | Tags                              | Description                                              | Version | File Path                              |
 |-----|-------------------------------|-----------|-----------------------------------|----------------------------------------------------------|---------|----------------------------------------|
-| 041 | [Topic Research Brief](./skills/research/topic.md) | research | research, citations, references, literature, survey, academic, synthesis | Structured, citation-backed research brief on any topic | 1.0     | skills/research/topic.md               |
-| 042 | [Person Research Profile](./skills/research/person.md) | research  | research, biography, background, people, profile, public-figures, citations | Research and compile a comprehensive, source-backed profile on any prominent figure | 1.0     | skills/research/person.md              |
+| 041 | [Topic Research Brief](./skills/research/041_research_topic.md) | research | research, citations, references, literature, survey, academic, synthesis | Structured, citation-backed research brief on any topic | 1.0     | skills/research/041_research_topic.md  |
+| 042 | [Person Research Profile](./skills/research/042_research_person.md) | research  | research, biography, background, people, profile, public-figures, citations | Research and compile a comprehensive, source-backed profile on any prominent figure | 1.0     | skills/research/042_research_person.md |
+
+## Learning Skills
+
+| ID  | Name                          | Category  | Tags                              | Description                                              | Version | File Path                                    |
+|-----|-------------------------------|-----------|-----------------------------------|----------------------------------------------------------|---------|----------------------------------------------|
+| 061 | [Feynman Re-Explanation Loop](./skills/learning/061_feynman_reexplanation.md) | learning | learning, feynman-technique, teaching, understanding, interactive | Teach any topic via Feynman Technique — explain, re-explain, identify gaps, repeat | 1.0 | skills/learning/061_feynman_reexplanation.md |
+| 062 | [Fast Learning Plan (20-Hour Pareto)](./skills/learning/062_fast_learning_plan.md) | learning | learning, study-plan, pareto, accelerated-learning, curriculum | 20-hour Pareto learning plan — 10 sessions targeting the vital 20% of concepts | 1.0 | skills/learning/062_fast_learning_plan.md |
+| 063 | [Progressive Quiz & Grading](./skills/learning/063_progressive_quiz.md) | learning | learning, quiz, assessment, grading, feedback | 10 progressively harder questions with instant grading and a final debrief | 1.0 | skills/learning/063_progressive_quiz.md |
+| 064 | [Top Learning Resources Finder](./skills/learning/064_top_resources.md) | learning | learning, resources, books, courses, recommendations | Identify and rank the top resources for learning any topic — with justifications | 1.0 | skills/learning/064_top_resources.md |
+| 065 | [Level Progression Map](./skills/learning/065_level_progression_map.md) | learning | learning, progression, mastery, roadmap, milestones | Break any topic into 5 mastery levels with concrete milestones and time estimates | 1.0 | skills/learning/065_level_progression_map.md |
 
 ## Transformation Skills
 

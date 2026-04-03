@@ -12,6 +12,7 @@ skills/
 ├── transformation/  (031–032)  Translation, format conversion
 ├── research/        (041–042)  Topic briefs, person profiles
 ├── strategy/        (051–055)  TAM/SAM/SOM, SWOT, market entry, positioning, demand validation
+├── learning/        (061–065)  Feynman technique, fast learning plans, quizzes, resources, progression maps
 ├── meta/            (091–092)  Skill chaining, LLM output debugging
 inbox/                          Raw/unrefined prompts before they become skills
 research/                       Output from research skill executions
@@ -22,7 +23,7 @@ SKILLS-CATALOG.md               Master index of all skills
 
 ## Skill File Conventions
 - **Filename:** `{NNN}_{snake_case_name}.md` — number is the skill_id
-- **ID ranges:** core 001–009, writing 011–019, analysis 021–029, transformation 031–039, research 041–049, strategy 051–059, meta 091–099
+- **ID ranges:** core 001–009, writing 011–019, analysis 021–029, transformation 031–039, research 041–049, strategy 051–059, learning 061–069, meta 091–099
 - **Frontmatter:** YAML between `---` fences — must include skill_id, name, version, category, tags, description, compatible_models, last_updated, change_log
 - **Sections (in order):** Parameters → Core Prompt → Output format → Examples (optional) → Notes / Tips / Variations
 - **Placeholders:** Use `{snake_case}` syntax (e.g. `{target_market}`, `{price}`) — never `[YOUR X]` or `<X>`

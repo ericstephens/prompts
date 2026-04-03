@@ -1,6 +1,6 @@
 # LLM Skills Library
 
-A collection of **reusable, copy-paste prompt skills** for Large Language Models (Grok, Claude, GPT, Gemini, Llama, etc.).
+A collection of **reusable, copy-paste prompt skills** for Large Language Models (Grok, Claude, GPT, Gemini, Llama, etc.). I found these in various locations on the interwebs. They are untested. They may crash your machine or create a temporal paradox. You have been advised 😊. 
 
 Each skill is a self-contained `.md` file containing:
 - Role & instructions
